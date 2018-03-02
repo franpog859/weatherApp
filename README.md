@@ -12,8 +12,6 @@ It is an Android Studio project, so if you want to run it you should import it a
 
 ## Screenshots
 
-![Start screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_1.png "Start screen")
-![Search screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_2.png "Search screen")
-![Search screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_3.png "Search screen")
-![Fail screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_4.png "Fail screen")
+![Screenshots](https://github.com/franpog859/weatherApp/tree/master/doc/sc.jpg "Screenshots")
+
 
