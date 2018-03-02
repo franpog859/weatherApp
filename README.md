@@ -9,3 +9,11 @@ This project is a documentation of my learning process about API calling and JSO
 If you can see some drama, some obvious bug or some bad habit tell me! I would be very glad if you do. It is all about learning.
 
 It is an Android Studio project, so if you want to run it you should import it as a new project in your IDE and compile it.
+
+## Screenshots
+
+![Start screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_1.png "Start screen")
+![Search screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_2.png "Search screen")
+![Search screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_3.png "Search screen")
+![Fail screen](https://github.com/franpog859/weatherApp/tree/master/doc/sc_4.png "Fail screen")
+
