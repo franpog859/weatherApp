@@ -1,8 +1,10 @@
 package com.example.fran.udemy_24_whatstheweather;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void search(View view) {
         String location = getLocation();
         setDescriptionFor(location);
+        turnKeyboardOff();
     }
 
     private String getLocation() {
@@ -63,5 +66,10 @@ public class MainActivity extends AppCompatActivity {
 
     private String getEditedDescriptionFrom(String data) {
         return JSONParser.getDataFrom(data);
+    }
+
+    private void turnKeyboardOff() {
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(locationEditText.getWindowToken(), 0);
     }
 }
