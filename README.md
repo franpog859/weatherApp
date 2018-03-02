@@ -12,6 +12,4 @@ It is an Android Studio project, so if you want to run it you should import it a
 
 ## Screenshots
 
-![Screenshots](https://github.com/franpog859/weatherApp/tree/master/doc/sc.jpg)
-
-
+![Screenshots](https://raw.githubusercontent.com/franpog859/weatherApp/master/doc/sc.jpg)
